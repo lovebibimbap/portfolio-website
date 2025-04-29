@@ -1,34 +1,69 @@
 <html> 
     <head> 
         <title>Jianxiong's Portfolio</title>
-    <style> 
-        body { 
-            background-color: lightblue; 
-            color: black; 
-            font-family: Arial, sans-serif;
-            padding: 20px;
-        }
-        a {
-            color: darkblue;
-        }
-    </style>
+        <link rel="stylesheet" type="text/css" href="indexstyle.css">
     </head>  
     <body> 
-        <h1>This is Jianxiong's Virtual Portfolio</h1>
+        <div id="container">
 
-        <p>
-            <strong>About the Class</strong><br>
-            This website is part of my work for <em>ENGCMP 0610: Composing Digital Media</em>.
-            In this course, we learned how to create and edit digital media projects using tools like 
-            Audacityfor audio editing and Adobe Premiere Pro for video editing.
-            Each tool was used to complete a major project — an audio narrative and a video essay —
-            both of which are showcased here in my portfolio.
-        </p>
+            <header>
+                <h1 class="main-heading">This is Jianxiong's Virtual Portfolio</h1>
+            </header>
 
-        <h3>Click <a href="audionar.html">here</a> to go to my audio narrative page.</h3>
-        <img src="Assets/lcfc.jpg" alt="Audio Narrative Preview" width="600" height="400" /> 
+            <section id="about">
+                <h2>About the Class and Reflection</h2>
+            
+                <p>
+                    This website is part of my work for <em>ENGCMP 0610: Composing Digital Media</em>. 
+                    In this course, we learned how to create and edit digital media projects using tools like 
+                    Audacity for audio editing and Adobe Premiere Pro for video editing. 
+                    Each tool was used to complete a major project — an audio narrative and a video essay — 
+                    both of which are showcased here in my portfolio.
+                </p>
+            
+                <p>
+                    Making this website helped me understand how to put together and share digital media projects. 
+                    I learned how to organize information across different pages, link everything together, and keep the design consistent. 
+                    Working with HTML and CSS showed me how important it is to have both good content and a clean layout so that everything is easy for the viewer to read and navigate.
+                </p>
+            
+                <p>
+                    One thing I found a little hard was figuring out how to keep the website simple but not boring. 
+                    I wanted it to look neat without adding too much. 
+                    As I worked through the CSS, I learned how to add color, spacing, and basic layout without making the page too busy. 
+                    It felt really good to see the website come together step by step.
+                </p>
+            
+                <p>
+                    Composing for this course overall taught me that design is just as important as content. 
+                    Whether it was editing audio, making a video, or building this website, 
+                    I realized that how you present your work changes how people experience it. 
+                    Even small choices, like what colors you use or how you organize sections, make a difference.
+                </p>
+            
+                <p>
+                    This course also made me feel more comfortable using digital tools to tell stories and share projects. 
+                    I’m proud of the audio, video, and website work I finished. 
+                    Now I feel more ready to use these skills for school projects, work, or anything else in the future.
+                </p>
+            </section>
+            
 
-        <h3>Click <a href="videoessay.html">here</a> to go to my video essay page.</h3>
-        <img src="Assets/coach.jpg" alt="Video Essay Preview" width="600" height="400" /> 
+            <section id="projects">
+                <div class="project-card">
+                    <h3>Audio Narrative—Leicester City's Miracle</h3>
+                    <a href="audio.html">Go to Audio Narrative</a><br>
+                    <img src="Assets/lcfc.jpg" alt="Audio Narrative Preview" width="400" height="300">
+                </div>
+
+                <div class="project-card">
+                    <h3>Video Essay—The Evolution of Football Tactics</h3>
+                    <a href="videoessay.html">Go to Video Essay</a><br>
+                    <img src="Assets/coach.jpg" alt="Video Essay Preview" width="400" height="300">
+                </div>
+            </section>
+
+
+        </div>
     </body>
 </html>
